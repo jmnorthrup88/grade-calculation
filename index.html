@@ -39,6 +39,17 @@
     <div class="grade-row"><label for="final-score">Final</label><input id="final-score" aria-label="Final score" type="number" min="0" max="100" step="any" value="" placeholder="0–100"><input id="final-weight" aria-label="Final weight percentage" type="number" min="0" max="100" step="any" value="40"></div>
     <section class="result" aria-label="Calculated grade"><p class="result-label">Overall Grade</p><output id="overall" aria-live="polite">—</output></section>
     <p id="message" class="message" role="status" aria-live="polite">Enter all three scores to see your grade.</p>
+  <section class="share-section">
+  <h2>Share This Calculator</h2>
+  <p>Scan to open this calculator on your phone.</p>
+  <img
+    src="qr-code.png"
+    alt="QR code linking to this grade calculator"
+    width="180"
+    height="180"
+  >
+</section>
+  
   </main>
   <script>
     const categories = ['assignment', 'midterm', 'final'];
